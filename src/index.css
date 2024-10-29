@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Titillium+Web:wght@200;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clip-path-triangle {
+  clip-path: polygon(-80% 100%, 100% 0, 100% 100%);
+}
