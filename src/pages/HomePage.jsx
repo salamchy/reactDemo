@@ -1,5 +1,6 @@
 import Yoga from '../assets/relax.svg';
 import Details from '../components/Details';
+import HeroImg from '../components/HeroImg';
 import Technologies from '../components/Technologies';
 
 const HomePage = () => {
@@ -7,7 +8,7 @@ const HomePage = () => {
     <div className="max-w-7xl mx-auto">
       <div className="grid grid-cols-2 p-4">
         <div className="flex flex-col h-96">
-          <img src={Yoga} className="w-96 h-96 animate-upDown" />
+          <HeroImg />
         </div>
         <div className="flex flex-col space-y-2 h-96 pt-28">
           <h1 className="text-4xl font-Quicksand font-bold">Hi, I am John</h1>

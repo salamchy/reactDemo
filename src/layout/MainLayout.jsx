@@ -5,14 +5,14 @@ import "../index.css"
 
 const MainLayout = () => {
   return (
-    <div className="">
+    <div className="flex flex-col min-h-screen">
       {/* header */}
       <header>
         <Navbar />
       </header>
 
       {/* Main Content */}
-      <div className="flex-1">
+      <div className="flex-grow">
         <Outlet />
       </div>
 

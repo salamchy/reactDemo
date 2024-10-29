@@ -13,3 +13,51 @@
 .clip-path-triangle {
   clip-path: polygon(-80% 100%, 100% 0, 100% 100%);
 }
+
+@keyframes colorChange {
+  0% {
+    fill: #3b82f6; /* blue-500 */
+  }
+  33% {
+    fill: #10b981; /* green-500 */
+  }
+  66% {
+    fill: #f59e0b; /* yellow-500 */
+  }
+  100% {
+    fill: #e009c3; 
+  }
+}
+
+.animate-color-change {
+  animation: colorChange 3s infinite;
+}
+
+@keyframes vestChange {
+  0% {
+    fill: #ffff; 
+  }
+  33% {
+    fill: black; 
+  }
+  66% {
+    fill: rgb(217, 81, 81); 
+  }
+  100% {
+    fill: #bce009; 
+  }
+}
+
+.animate-vest-change {
+  animation: vestChange 4s infinite;
+}
+
+@keyframes shoeChange {
+  40% {
+    fill: black; 
+  }
+}
+
+.animate-shoe-change {
+  animation: shoeChange 3s infinite;
+}
